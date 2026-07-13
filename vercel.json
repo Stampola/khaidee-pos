@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/links",
+      "destination": "/links.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/links.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    }
+  ]
+}
