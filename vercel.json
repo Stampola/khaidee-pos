@@ -1,4 +1,7 @@
 {
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": false,
   "rewrites": [
     {
       "source": "/links",
